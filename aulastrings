@@ -1,0 +1,66 @@
+/*
+// EXERCICIO 1
+let array
+console.log('a. ', array) // undefined
+array = null
+console.log('b. ', array) // null
+array = [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+console.log('c. ', array.length) // vai imprimir o numero 11
+let i = 0
+console.log('d. ', array[i]) // vai imprimir o numero 3
+array[i+1] = 19
+console.log('e. ', array) // vai imprimir o array inteiro
+const valor = array[i+6]
+console.log('f. ', valor) // vai imprimir o numero 9
+
+
+// EXERCICIO 2
+const frase = prompt("Digite uma frase")
+console.log(frase.toUpperCase().replaceAll("A", "I"), frase.length)
+// SUBI NUM ÔNIBUS EM MIRROCOS 27
+
+// EXERCICIO B 1
+let nome = prompt ("digite seu nome")
+let email = prompt ("digite seu email")
+console.log ('O e-mail ' + email + ' foi cadastrado com sucesso. Seja bem-vinda(o), ' + nome, '!');
+
+// EXERCICIO B 2
+let comidas
+comidas = ["lasanha", "panqueca", "pure", "pizza", "estrogonofe"]
+console.log (comidas)
+console.log ("essas sao minhas comidas favoritas")
+console.log (comidas [0])
+console.log (comidas [1])
+console.log (comidas [2])
+console.log (comidas [3])
+console.log (comidas [4])
+let pergunta = prompt ("Qual sua comida favorita")
+comidas.splice(1, 1)
+comidas = ["lasanha", pergunta, "pure", "pizza", "estrogonofe"]
+console.log (comidas)
+
+// EXERCICIO B 3
+let listaDeTarefas 
+listaDeTarefas = []
+let tarefa0 = prompt ("diga uma tarefa")
+listaDeTarefas = [tarefa0]
+let tarefa1 = prompt ("diga outra tarefa")
+listaDeTarefas = [tarefa0, tarefa1]
+let tarefa2 = prompt ("diga outra tarefa")
+listaDeTarefas = [tarefa0, tarefa1, tarefa2]
+console.log (listaDeTarefas)
+let realizou = Number (prompt("qual o numero da tarefa que vc ja realizou?"))
+listaDeTarefas.splice(realizou, 1)
+console.log (listaDeTarefas)
+
+// DESAFIO 1
+const frase = prompt ("digite uma frase")
+const array = frase.split(" ")
+console.log (array)
+
+let array = ["Banana", "Morango", "Abacaxi", "Laranja", "Ameixa"]
+console.log (array)
+console.log (array.indexOf (prompt ("diga uma fruta"))(array.length))
+
+
+*/
