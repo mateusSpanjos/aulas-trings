@@ -1,1 +1,1 @@
-# aula-trings
+# aula-strings
